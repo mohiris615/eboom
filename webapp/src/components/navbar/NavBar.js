@@ -1,5 +1,15 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { Nav, List, ListItem, Logo, LogoImg, styledLink, Menu, MobileMenuIcon} from './NavBar.styled.js';
+import logoPng from '../../assets/images/logo_text.png';
+import { useState } from 'react';
+import { FiAlignRight } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
+
 function NavBar(){
+
+  const [active, setActive] = useState("");
+  const [visibility, setVisibility] = useState(false);
+
     const navItems =
  [
     {id: 1, name: "Home", link: "/"},
@@ -13,19 +23,33 @@ function NavBar(){
   ];
 
   const navListItems= navItems.map(item => {
-    return (<li key={item.id}>
-        <Link to={item.link}>{item.name}</Link>
-    </li>)
+    return (
+    <ListItem key={item.id}>
+        <Link  to={item.link} style={styledLink}
+        onClick={() => setActive(item.name)}
+        className={active === item.name ? "isActive" : ""}
+        >
+          {item.name}
+        </Link>
+    </ListItem>)
 });
 
     return (
-        <nav>
-            <div id="main-menu">
-                <ul>
-                   {navListItems}
-                </ul>
-            </div>
-        </nav>
+        <Nav>
+          <Menu id="main-menu" className={visibility? "isVisible" : "isHidden"}>
+            <Logo>
+              <Link to="/">
+                <LogoImg src={logoPng} alt="Eboom Logo" />
+              </Link>
+            </Logo>
+            <List className={visibility? "isVisible" : "isHidden"}>
+              {navListItems}
+            </List>
+          </Menu>
+          <MobileMenuIcon onClick={() => setVisibility((prevMenuState) => !prevMenuState )}>
+            { visibility ? <FiX /> : <FiAlignRight /> }
+            </MobileMenuIcon>
+        </Nav>
     )
 }
 
