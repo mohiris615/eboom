@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background-color: #2E3440;
+background-color: rgba(46, 52, 64, 0.2);
 width: 100%;
 position: fixed;
 top: 0;
 display: flex;
+z-index: 4;
 `
 
 export const Menu = styled.div`
@@ -51,6 +52,7 @@ export const styledLink = {
   color: "#fff",
   textTransform: "uppercase",
   display: "block",
+  fontSize: "0.8rem",
 }
 
 export const LogoImg = styled.img`
