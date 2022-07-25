@@ -1,8 +1,10 @@
+import { Wrapper } from './Footer.styled';
+
 function Footer(){
     return (
-        <footer id="footer">
+        <Wrapper>
             HELLO FOOTER
-        </footer>);
+        </Wrapper>);
 }
 
 export default Footer;
