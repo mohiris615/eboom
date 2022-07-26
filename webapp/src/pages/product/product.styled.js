@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const OfferWrapper = styled.div`
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+`
 export const Wrapper = styled.section`
     width: 80%;
     margin: auto;
@@ -17,24 +22,12 @@ export const SubTitle = styled.h3`
 export const ChooseOffer = styled.h4`
     color: #00B0D7;
 `
-export const OfferSwitcherWrapper = styled.label`
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-`
 export const OfferSwitcherOption = styled.input.attrs({ type: 'checkbox' })`
     opacity: 0;
     width: 0;
     height: 0;
-    &:checked {
-        background-color: #2196F3;
-    }
-
-    &:focus {
-        box-shadow: 0 0 1px #2196F3;
-    }
 `
+
 export const OfferSwitcherButton = styled.span`
     position: absolute;
     cursor: pointer;
@@ -60,4 +53,26 @@ export const OfferSwitcherButton = styled.span`
         border-radius: 50%;
         border-radius: 34px;
     }
+    `
+
+export const OfferSwitcherWrapper = styled.label`
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+    & ${{OfferSwitcherOption}}:focus & ${{OfferSwitcherButton}}{
+        box-shadow: 0 0 1px #2196F3;
+    };
+
+    & ${{OfferSwitcherOption}}:checked & ${{OfferSwitcherButton}}{
+        background-color: #2196F3;
+    };
+
+    & ${{OfferSwitcherOption}}:checked & ${{OfferSwitcherButton}}:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    };
 `
+

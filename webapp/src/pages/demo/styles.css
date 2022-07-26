@@ -1,0 +1,45 @@
+.container-fluid {
+    width: 100%;
+    margin: auto;
+    background-image: url("../../assets/images/bg.jpg");
+    padding: 40px;
+}
+.form-group {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.form-group form {
+    display: flex;
+    gap: 2px;
+}
+
+.getdemo-input {
+    flex: 2;
+  
+ 
+}
+
+.getdemo-input input {
+    padding: 20px;
+    width: 94%;
+}
+
+
+.getdemo-btn {
+    flex: 1;
+    padding: 0;
+}
+
+.getdemo-btn button {
+    padding:20px;
+    width: 96%;
+    border: none;
+    background-color: #DD6058;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18;
+}

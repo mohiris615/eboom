@@ -16,8 +16,8 @@ padding: 10px;
 width: 80%;
 margin: auto;
 @media (max-width: 768px) {
-    width: 100%;
-  }
+  width: 100%;
+}
 `
 
 export const List = styled.ul`

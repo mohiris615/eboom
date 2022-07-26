@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Nav, List, ListItem, Logo, LogoImg, styledLink, Menu, MobileMenuIcon} from './NavBar.styled.js';
+import { Nav, List, ListItem, Logo, LogoImg, styledLink, Menu, MobileMenuIcon} from './NavBar.styled';
 import logoPng from '../../assets/images/logo_text.png';
 import { useState } from 'react';
-import { FiAlignRight } from "react-icons/fi";
-import { FiX } from "react-icons/fi";
+import { FiAlignRight, FiX } from "react-icons/fi";
+
 
 function NavBar(){
 
