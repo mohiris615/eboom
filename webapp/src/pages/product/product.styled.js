@@ -4,6 +4,7 @@ export const OfferWrapper = styled.div`
     padding: 40px;
     background-color: #fff;
     border-radius: 20px;
+    margin-bottom: 40px;
 `
 export const Wrapper = styled.section`
     width: 80%;
