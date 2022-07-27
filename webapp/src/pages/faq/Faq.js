@@ -1,7 +1,11 @@
+import FaqHeader from './FaqHeader';
+import FaqQuestions from './FaqQuestions';
+import './styles.css';
 function Faq (){
     return (
         <div id="faq-page">
-            I Am Faq Page
+           <FaqHeader />
+           <FaqQuestions />
         </div>
     )
 }
