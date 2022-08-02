@@ -1,0 +1,81 @@
+.topicItem-container {
+    background: #FFFFFF;
+    max-width: 725px;
+    padding: 20px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user--full-name {
+    font-size: 13px;
+    font-weight: 700;
+}
+.user--connexion-status{
+    font-size: 10px;
+    font-weight: 200;
+}
+.topic-header {
+    display: flex;
+}
+
+.user--btn-options {
+    margin-left: 10%;
+}
+
+.user--profile {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.topic-footer {
+    display: flex;
+}
+
+.topic-footer ul {
+    padding: 0;
+    margin: 0;
+}
+.topic-footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+.topic-footer ul li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.topic-footer ul.topic-tags li{
+    background: #EAEAEA;
+    border-radius: 5px;
+    margin-left: 8px;
+    padding: 5px 10px;
+}
+.topic-footer ul.topic-tags li a{
+    font-size: 10px;
+    font-weight: 700;
+}
+.topic-footer ul.topic-tags li:first-of-type {
+    margin-left: 0;
+}
+
+.topic-tags {
+    flex: 1;
+}
+
+.topic-stats  li{
+    margin-left: 8px;
+    padding: 5px 10px;
+}
+.topic-stats  li svg{
+    vertical-align: middle;
+    padding-right: 6px;
+}

@@ -1,0 +1,28 @@
+#tags-container {
+
+}
+
+#tags-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+#tags-container ul li {
+    list-style: none;
+    display: inline-block;
+    background: #EAEAEA;
+    border-radius: 100px;
+    padding: 8px;
+    margin-left: 10px;
+}
+#tags-container ul li:first-of-type {
+    margin-left: 0;
+    background-color: #00B0D8;
+}
+#tags-container ul li:first-of-type a {
+    color: #fff;
+}
+#tags-container ul li a {
+    color: #808080;
+    text-decoration: none;
+}

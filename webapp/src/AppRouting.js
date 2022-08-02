@@ -19,7 +19,7 @@ function AppRouting (){
             <Route exact path="/" element={<Home />} />
             <Route exact path="/products" element={<Product />} />
             <Route exact path="/blog" element={<Blog />} />
-            <Route exact path="/forum" element={<Forum />} />
+            <Route exact path="/forum"  element={<Forum />} />
             <Route exact path="/faq" element={<Faq />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/demo" element={<Demo />} />

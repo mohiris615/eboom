@@ -11,7 +11,6 @@ function FaqQuestions() {
 
     const faqItems = questions.map(faq => {
         return (
-            
                 <li className={`questionItem ${active === faq.id ? "active" : ""}`} key={faq.id} onClick={() => {
                     setAsked(faq.question);
                     setResponse(faq.answer);
@@ -19,11 +18,8 @@ function FaqQuestions() {
                 }}
                  >{faq.question}
                  </li>
-          
         )
     });
-
-
     return (
         <div className="faqContainer">
             <div className="faq">
