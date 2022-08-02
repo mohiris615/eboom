@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background-color: rgba(46, 52, 64, 0.2);
+background-color: #2E3440;
 width: 100%;
 position: fixed;
 top: 0;

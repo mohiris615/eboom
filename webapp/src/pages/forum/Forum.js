@@ -1,5 +1,5 @@
 import TopicList  from '../../components/forum/topicList/TopicList';
-import LeftSideMenu  from '../../components/leftSideMenu/LeftSideMenu';
+import LeftSideMenu  from '../../components/forum/leftSideMenu/LeftSideMenu';
 import RightSideContent  from '../../components/forum/rightSideContent/RightSideContent';
 import {Wrapper, Container, Main } from './styles.styled';
 import './styles.css';

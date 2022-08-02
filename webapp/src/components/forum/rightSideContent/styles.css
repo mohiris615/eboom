@@ -1,0 +1,28 @@
+#topic-aside--right {
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 5px;
+    height: auto;
+}
+
+#topic-aside--right  h3 {
+    font-size: 13px;
+}
+
+#topic-aside--right  h3 svg{
+    vertical-align: middle;
+    padding: 5px;
+    font-weight: 700;
+}
+#topic-aside--right ul li a {
+    color: #1682FD;
+    text-decoration: none;
+    font-size: 11px;
+}
+#topic-aside--right ul li {
+    color: #1682FD;
+}
+
+#topic-aside--right hr {
+    border: 1px solid #EAEAEA;
+}

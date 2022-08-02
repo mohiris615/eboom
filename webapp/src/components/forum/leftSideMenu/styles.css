@@ -1,0 +1,49 @@
+aside#leftSideMenu{
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 5px;
+}
+.forum-menu, .personal {
+}
+
+.forum-menu ul, .personal  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.forum-menu ul li , .personal  ul li {
+    list-style: none;
+    padding: 5px 25px;
+}
+
+.forum-menu ul li:hover , .personal  ul li:hover{
+    cursor: pointer;
+    background-color: #CEF2FB;
+    font-weight: 700;
+}
+.forum-menu ul li.active , .personal  ul li.active{
+    background-color: #CEF2FB;
+}
+
+.forum-menu ul li a , .personal ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.forum-menu ul li a:hover , .forum-menu ul li a.active , .personal ul li a:hover, .personal ul li a.active {
+    color: #00B0D8;
+}
+.forum-menu h4 , .personal h4 {
+    color: #808080;
+    font-size: 13PX;
+}
+aside#leftSideMenu svg{
+    color: #808080;
+}
+li a svg {
+    vertical-align: middle;
+    padding: 5px;
+    font-weight: 700;
+}

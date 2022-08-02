@@ -11,9 +11,10 @@
     list-style: none;
     display: inline-block;
     background: #EAEAEA;
-    border-radius: 100px;
-    padding: 8px;
+    border-radius: 200px;
+    padding: 6px 8px;
     margin-left: 10px;
+    text-align: center;
 }
 #tags-container ul li:first-of-type {
     margin-left: 0;
@@ -25,4 +26,6 @@
 #tags-container ul li a {
     color: #808080;
     text-decoration: none;
+    padding: 6px 14px;
+
 }
