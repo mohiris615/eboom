@@ -1,0 +1,38 @@
+#forum-page{
+    margin-top: 130px;
+}
+.wrapper {
+    display: flex;
+    gap: 20px ;
+    margin: auto;
+    width: 80%;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.addTopic {
+    text-align: right;
+    margin: auto;
+    width: 31%;
+}
+.addTopic button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    color:  #fff;
+    text-transform: capitalize;
+    background-color: #00b0d899;
+    transition: 0.3s ease-out;
+}
+
+.addTopic button:hover {
+    cursor: pointer;
+    background-color: #00B0D8;
+}
+
+a {
+    text-decoration: none;
+    color: #808080;
+}

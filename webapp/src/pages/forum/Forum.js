@@ -1,21 +1,15 @@
-import TopicList  from '../../components/forum/topicList/TopicList';
-import LeftSideMenu  from '../../components/forum/leftSideMenu/LeftSideMenu';
-import RightSideContent  from '../../components/forum/rightSideContent/RightSideContent';
-import {Wrapper, Container, Main } from './styles.styled';
+
+import {Container } from './styles.styled';
 import './styles.css';
-import TagsMenu from "../../components/forum/tagsMenu/TagsMenu";
+
+import ForumLayout from "../../components/forum/ForumLayout";
+import TopicList from "../../components/forum/topicList/TopicList";
 function Forum(){
+
     return (
-        <Container id="forum-page">
-            <Wrapper>
-                <LeftSideMenu />
-                <Main>
-                    <TagsMenu />
-                    <TopicList />
-                </Main>
-                <RightSideContent />
-            </Wrapper>
-        </Container>
+        <ForumLayout >
+            <TopicList />
+        </ForumLayout>
     )
 }
 

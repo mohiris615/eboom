@@ -1,5 +1,6 @@
 #tags-container {
-
+    margin: 0;
+    width: 80%;
 }
 
 #tags-container ul {
@@ -27,5 +28,4 @@
     color: #808080;
     text-decoration: none;
     padding: 6px 14px;
-
 }

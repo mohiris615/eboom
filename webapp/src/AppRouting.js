@@ -9,6 +9,8 @@ import  Login  from './pages/login/Login';
 import  Register  from './pages/register/Register';
 import Forum from './pages/forum/Forum';
 import NavBar from './components/navbar/NavBar';
+import TopicShow from "./pages/forum/TopicShow";
+import TopicAdd from "./pages/forum/TopicAdd";
 
 function AppRouting (){
     return(
@@ -25,6 +27,8 @@ function AppRouting (){
             <Route exact path="/demo" element={<Demo />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/register" element={<Register />} />
+            <Route exact path="/forum/add" element={<TopicAdd />} />
+            <Route exact path="/forum/show" element={<TopicShow />} />
         </Routes>
       </BrowserRouter>
         </>

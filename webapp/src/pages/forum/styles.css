@@ -1,3 +1,88 @@
 #forum-page {
-    margin-top: 130px;
+}
+.add-new-topic {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+.btn-group {
+    display: flex;
+    gap: 20px;
+    align-items: self-end;
+    margin: 20px 0;
+}
+.btn-group button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 40px;
+}
+.btn-group button:hover {
+    cursor: pointer;
+}
+
+.file-input {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.btn-save {
+    background-color: #EAEAEA;
+    color: #FDA9A9;
+}
+
+.btn-publish {
+    background-color: #FDA9A9;
+    color: #fff;
+}
+
+.file-input input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 40px;
+    background-color: #00B0D8;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.file-input label  svg {
+    height: 16px;
+    margin-right: 4px;
+}
+
+textarea {
+    width: 640px;
+    height: 344px;
+    border: 1px solid #EAEAEA
+}
+textarea:focus, .file-input input:focus {
+    outline: 1px solid #EAEAEA;
+}
+.input-group p > input, .input-group p > select{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
+}
+
+select#category{
+    color: #808080;
 }

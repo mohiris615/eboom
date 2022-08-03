@@ -4,8 +4,8 @@ import './styles.css';
 function Faq (){
     return (
         <div id="faq-page">
-           <FaqHeader />
-           <FaqQuestions />
+               <FaqHeader />
+               <FaqQuestions />
         </div>
     )
 }

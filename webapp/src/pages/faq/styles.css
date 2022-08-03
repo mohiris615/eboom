@@ -133,7 +133,8 @@ header.faq-header{
   display: flex;
   width: 100%;
 }
-
+.faq-wrapper {
+}
 .questions {
 
 }
@@ -151,3 +152,4 @@ header.faq-header{
 #faq-clipath > path{
   fill: #fff;
 }
+

@@ -1,6 +1,7 @@
 import './styles.css';
 import {BiComment, BiShowAlt} from "react-icons/bi";
 import {AiOutlineArrowUp} from "react-icons/ai";
+import {BsThreeDotsVertical} from "react-icons/bs";
 function TopicItem(props){
     return (
         <div className="topicItem-container">
@@ -19,7 +20,7 @@ function TopicItem(props){
                        <div className="user--connexion-status">5 min ago</div>
                    </div>
                </div>
-               <div className="user--btn-options">...</div>
+               <div className="user--btn-options"><a href="#options"><BsThreeDotsVertical /></a></div>
             </div>
             <div className="topic-body">
                 <div className="title">

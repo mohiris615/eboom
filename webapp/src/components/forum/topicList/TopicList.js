@@ -1,5 +1,7 @@
 import TopicItem from "../topicItem/TopicItem";
 import { topics } from '../../../seeds/topics';
+import "./styles.css";
+import TagsMenu from "../tagsMenu/TagsMenu";
 function TopicList(){
     const topicCollection = topics.questions.map(topic => {
         return(
@@ -16,9 +18,10 @@ function TopicList(){
             />
         )
     })
-    return (
+    return (<div>
+        <TagsMenu />
         <div id="topics-listing">
             {topicCollection}
-        </div>)
+        </div></div>)
 }
 export default TopicList;
